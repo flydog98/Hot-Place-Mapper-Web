@@ -58,4 +58,4 @@ def result():
   return render_template('result.html', result = lines[:5])
 
 if __name__ == '__main__':
-  app.run(port="1234", debug=True)
+  app.run(host='0.0.0.0', port="1234")
